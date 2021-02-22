@@ -220,6 +220,7 @@ footer h4,
 
 .footer_contact-link {
   border: 1px solid #d4a851;
+  border-radius: 4px;
   padding: 5px 0 8px 20px;
   max-width: 180px;
 }
@@ -348,10 +349,11 @@ footer h4,
   padding: 20px 20px 5px 20px;
 }
 
-.home_icon-container span {
+.home_icon-container h3 {
   color: #373027;
   font-weight: 500;
   display: inline-block;
+  font-size: 1rem;
 }
 
 .home_icon-container-icon:hover {
@@ -547,7 +549,7 @@ footer h4,
   padding: 1rem 0 2rem 0;
 }
 
-.support_contact h2 {
+.support_contact h3 {
   font-family: "Bebas Neue", cursive;
   font-size: 2.2rem;
   font-weight: 400;
@@ -904,6 +906,14 @@ table th {
 
 .contact_main-info i:hover {
   color: #d4a851;
+}
+
+.contact_subscribe {
+  background-color: #FFFFFF;
+}
+
+.contact_subscribe input[type="email"] {
+  border: 1px solid #373027;
 }
 
 /*----------------------------------SHOES----------------------------------------*/
