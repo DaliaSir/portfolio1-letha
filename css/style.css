@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;*/
 #FEFDFC - off-white;
 #373027 - dark brown;
 #F5EBE1 - light brown;
-#D4A851 - gold;
+#D4A851 / #B08C3A - gold;
 #B9B9B9 - grey;
 #F0F0F0 - light blue grey;*/
 
@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif;*/
 
 html {
   background-color: #f0f0f0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -71,22 +72,24 @@ nav a {
   text-transform: uppercase;
   padding: 0 1.2rem;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 nav a:hover, #logo:hover {
-  color: #d4a851;
+  color: #B08C3A;
   cursor: pointer;
 }
 
 #active {
-  color: #d4a851;
+  color: #B08C3A;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .dropbtn {
-  background-color: #FFFFFF;
+  background-color: #fefdfc;
   color: #373027;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   border: none;
   font-family: "Roboto", "Helvetica", sans-serif;
@@ -112,6 +115,7 @@ nav a:hover, #logo:hover {
   color: #373027;
   padding: 8px 16px;
   display: block;
+  font-size: 1.2rem;
 }
 
 .dropdown-content a:hover {
@@ -123,7 +127,7 @@ nav a:hover, #logo:hover {
 }
 
 .dropdown:hover .dropbtn {
-  color: #d4a851;
+  color: #B08C3A;
   cursor: pointer;
 }
 
@@ -137,7 +141,7 @@ nav a:hover, #logo:hover {
 }
 
 .shopping-bag:hover {
-  color: #d4a851;
+  color: #B08C3A;
 }
 
 .shopping-bag:active {
@@ -157,9 +161,11 @@ nav a:hover, #logo:hover {
 .primary-nav ul {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
   width: 100%;
   list-style-type: none;
+  padding: 0;
 }
 
 .hamburger-btn {
@@ -171,7 +177,7 @@ nav a:hover, #logo:hover {
 
 .footer_container {
   background-color: #373027;
-  color: #fefdfc;
+  color: #FFFFFF;
   display: flex;
   padding: 10px;
   justify-content: space-around;
@@ -179,13 +185,13 @@ nav a:hover, #logo:hover {
 }
 
 .footer_container a {
-  color: #fefdfc;
+  color: #FFFFFF;
   display: block;
   padding-bottom: 1%;
 }
 
 .footer_container a:hover {
-  color: #d4a851;
+  color: #D4A851;
 }
 
 .footer_container a:active {
@@ -219,7 +225,7 @@ footer h4,
 }
 
 .footer_contact-link {
-  border: 1px solid #d4a851;
+  border: 1px solid #D4A851;
   border-radius: 4px;
   padding: 5px 0 8px 20px;
   max-width: 180px;
@@ -236,7 +242,7 @@ footer h4,
   padding: 5px;
   border-top: 1px solid rgba(254, 253, 252, 0.2);
   background-color: #373027;
-  color: #fefdfc;
+  color: #FFFFFF;
   font-size: 0.8rem;
 }
 
@@ -251,7 +257,7 @@ footer h4,
 .footer_to-top i{
   padding: 1rem;
   font-size: 2rem;
-  color: #d4a851;
+  color: #B08C3A;
 }
 
 .footer_to-top a:hover {
@@ -270,21 +276,23 @@ footer h4,
 
 .intro-button {
   display: inline-block;
-  background-color: #d4a851;
+  background-color: #D4A851;
   color: #373027;
   padding: 10px 20px;
   border-radius: 4px;
   text-align: center;
   text-transform: uppercase;
   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
-    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.2),
     inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
   margin: 10px 0px;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .intro-button:hover {
-  color: #fefdfc;
-  border: #fefdfc 1px solid;
+  color: #FFFFFF;
+  border: #FFFFFF 1px solid;
 }
 
 .intro-button:active {
@@ -302,14 +310,14 @@ footer h4,
 }
 
 .main-intro-text {
-  background-color: rgba(55, 48, 39, 0.3);
+  background-color: rgba(55, 48, 39, 0.6);
   margin: 0 5%;
   padding: 15px;
   max-width: 360px;
   height: 410px;
   box-shadow: 2px 5px 25px 0 rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-  color: #fefdfc;
+  color: #FFFFFF;
   position: relative;
   top: 90px;
   z-index: 1;
@@ -321,10 +329,6 @@ footer h4,
 
 .main-intro-text p {
   font-size: 24px;
-}
-
-.main-intro-text-p-bold {
-  font-weight: 700;
 }
 
 /*---------------------------Home Icons------------------------*/
@@ -373,7 +377,7 @@ footer h4,
 
 .home_picture-container a {
   font-family: "Bebas Neue", cursive;
-  color: #fefdfc;
+  color: #FFFFFF;
   font-size: 36px;
 }
 
@@ -424,7 +428,7 @@ footer h4,
 /*-------------------------------Home Ethos-----------------------------------*/
 
 .home_ethos {
-  background-color: #d4a851;
+  background-color: #D4A851;
   padding: 10px;
   text-align: center;
 }
@@ -491,7 +495,7 @@ footer h4,
 }
 
 .home_subscribe input[type="submit"] {
-  background-color: #d4a851;
+  background-color: #D4A851;
   color: #373027;
   font-weight: 600;
   padding: 10px 20px;
@@ -506,7 +510,7 @@ footer h4,
 }
 
 .home_subscribe input[type="submit"]:hover {
-  color: #fefdfc;
+  color: #FFFFFF;
 }
 
 .home_subscribe input[type="submit"]:active {
@@ -535,7 +539,7 @@ footer h4,
   padding: 20px;
 }
 .support_nav a {
-  color: #d4a851;
+  color: #B08C3A;
   font-family: "Bebas Neue", cursive;
   font-size: 2rem;
   margin: 0 2%;
@@ -549,23 +553,27 @@ footer h4,
   padding: 1rem 0 2rem 0;
 }
 
-.support_contact h3 {
+.support_contact h2 {
   font-family: "Bebas Neue", cursive;
   font-size: 2.2rem;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin: 5px 0 10px 0;
 }
 
 .support_contact-contact {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 1.5rem;
-  margin: 5px;
+  margin: 0;
+}
+
+.support_contact p {
+  padding-bottom: 1rem;
 }
 
 .support_contact a {
-  color: #fefdfc;
-  background-color: #d4a851;
+  color: #FFFFFF;
+  background-color: #B08C3A;
   padding: 10px 20px;
   border-radius: 4px;
   text-align: center;
@@ -574,6 +582,9 @@ footer h4,
     inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
     inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
   margin: 10px 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 .support_contact a:hover {
@@ -587,7 +598,7 @@ footer h4,
 }
 
 .support_container h3 {
-  color: #d4a851;
+  color: #B08C3A;
   font-family: "Bebas Neue", cursive;
   font-size: 2rem;
   font-weight: 500;
@@ -604,12 +615,12 @@ footer h4,
     inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
     inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
   margin: 10px 0px;
-  border: #d4a851 2px solid;
+  border: #B08C3A 2px solid;
 }
 
 .support_container a:hover {
-  color: #fefdfc;
-  background-color: #d4a851;
+  color: #FFFFFF;
+  background-color: #B08C3A;
 }
 
 .support_container-shoe-care {
@@ -643,7 +654,7 @@ footer h4,
   padding: 20px;
 }
 .company_nav a {
-  color: #d4a851;
+  color: #B08C3A;
   font-family: "Bebas Neue", cursive;
   font-size: 2rem;
   margin: 0 2%;
@@ -677,18 +688,18 @@ footer h4,
   justify-content: center;
   text-align: left;
   flex-wrap: wrap;
-  background-color: #d4a851;
+  background-color: #B08C3A;
 }
 
 .company_process-text {
   max-width: 300px;
   max-height: 450px;
   padding: 2%;
-  color: #fefdfc;
+  color: #FFFFFF;
 }
 
 .company_process-text h3 {
-  color: #fefdfc;
+  color: #FFFFFF;
 }
 
 .company_ethos {
@@ -783,8 +794,9 @@ ul.breadcrumb li + li:before {
 }
 
 ul.breadcrumb li a {
-  color: #d4a851;
+  color: #B08C3A;
   text-decoration: none;
+  font-weight: 500;
 }
 
 ul.breadcrumb li a:hover {
@@ -838,8 +850,9 @@ ul.breadcrumb li a:hover {
 }
 
 .contact_main-form button {
-  color: #fefdfc;
-  background-color: #d4a851;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  background-color: #B08C3A;
   padding: 5px 20px;
   border-radius: 4px;
   text-align: center;
@@ -853,7 +866,7 @@ ul.breadcrumb li a:hover {
 
 .contact_main-form button:hover {
   background-color: #fefdfc;
-  border: #d4a851 2px solid;
+  border: #B08C3A 2px solid;
   color: #373027;
 }
 
@@ -867,7 +880,7 @@ ul.breadcrumb li a:hover {
 .message {
   background: #04bf8a;
   padding: 1rem;
-  color: #fefdfc;
+  color: #FFFFFF;
   margin-top: 1.5rem;
 }
 
@@ -905,7 +918,7 @@ table th {
 }
 
 .contact_main-info i:hover {
-  color: #d4a851;
+  color: #B08C3A;
 }
 
 .contact_subscribe {
@@ -922,7 +935,7 @@ table th {
   padding: 20px;
 }
 .shoes_nav a {
-  color: #d4a851;
+  color: #B08C3A;
   font-family: "Bebas Neue", cursive;
   font-size: 2rem;
   margin: 0 2%;
@@ -968,12 +981,23 @@ table th {
 
 .go-back {
   background-color: #fefdfc;
-  border: 2px solid #d4a851;
-  border-radius: 2px;
+  border: 3px solid #B08C3A;
+  border-radius: 4px;
   margin-left: 20px;
   padding: 5px 15px;
   color: #373027;
+  font-weight: 600;
+  text-transform: uppercase;
   cursor: pointer;
+}
+
+.go-back:hover {
+  color: #FFFFFF;
+  background-color: #B08C3A;
+}
+
+.go-back:active {
+  opacity: 0.7;
 }
 
 .details_product {
@@ -1005,8 +1029,8 @@ table th {
 }
 
 .details_product button {
-  color: #fefdfc;
-  background-color: #d4a851;
+  color: #FFFFFF;
+  background-color: #B08C3A;
   padding: 10px 40px;
   border-radius: 4px;
   text-align: center;
@@ -1016,11 +1040,14 @@ table th {
     inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
   margin: 30px 0px;
   border: #fefdfc 2px solid;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .details_product button:hover {
   background-color: #fefdfc;
-  border: #d4a851 2px solid;
+  border: #B08C3A 2px solid;
   color: #373027;
 }
 
@@ -1036,7 +1063,7 @@ table th {
 
 .loader {
   border: 16px solid #f3f3f3;
-  border-top: 16px solid #d4a851;
+  border-top: 16px solid #B08C3A;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -1093,7 +1120,7 @@ table th {
       background-color: #373027;
       transform: translateY(-100%);
       transition: transform 0.4s ease;
-      box-shadow: 0px 8px 16px 0px rgba(4, 36, 64,0.4);
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
       z-index: 99;
     }
 
