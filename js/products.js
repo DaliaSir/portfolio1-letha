@@ -15,7 +15,7 @@ const shoesData = [
   },
   {
     name: "Casual Borgue Boots",
-    price: 4200,
+    price: 4100,
     description:
       "Black leather Borgue boots. Natural rubber sole perfect for everyday comfort.",
     imageUrl:
@@ -30,7 +30,7 @@ const shoesData = [
   },
   {
     name: "Clasic Borgue Boots",
-    price: 4200,
+    price: 4350,
     description:
       "Light brown leather Borgue boots. Natural rubber sole perfect for everyday comfort.",
     imageUrl:
@@ -59,7 +59,7 @@ const shoesData = [
   },
   {
     name: "Weaved leather Oxfords",
-    price: 3975,
+    price: 3575,
     description:
       "Exlusive weaved leather Oxfords. Light and confortable for the warm summer days.",
     imageUrl: "images/products/fashion-601561_1280-2.jpg",
@@ -116,7 +116,7 @@ const shoesData = [
   },
   {
     name: "Suede Borgues",
-    price: 3975,
+    price: 3775,
     description:
       "Light brown suede borgue shoes. Classic look, great for everyday wear or special occasions.",
     imageUrl: "images/products/mnz-7srTa70hT-Y-unsplash.jpg",
@@ -186,7 +186,7 @@ const shoesData = [
   },
   {
     name: "High Oxfords",
-    price: 3950,
+    price: 3600,
     description:
       "Cinnamon brown leather tall Oxfords. Classic look for elegant everyday look.",
     imageUrl: "images/products/radek-skrzypczak-WlB8TsI_th0-unsplash.jpg",

@@ -80,9 +80,20 @@
       <a href="casual-shoes.html" title="Go to Casual Shoes">Casual Shoes</a>
       <a href="boots.html" title="Go to Boots" id="active_shoes_nav">Boots</a>
     </div>
-    <div>
-      <div class="results boots_results"></div>
+
+    <div class="sort">
+      <label for="shoes-sort">Filter</label>
+      <select name="shoes" id="shoes-sort" class="sortBy">
+        <option value="">Choose...</option>
+        <option value="price-ascending">Price (lowest to highest)</option>
+        <option value="price-descending">Price (Highest to lowest)</option>
+        <option value="name-ascending">Name (A-Z)</option>
+        <option value="name-descending">Name (Z-A)</option>
+      </select>
     </div>
+
+    <div class="results boots_results"></div>
+   
   </main>
 
   <footer>
