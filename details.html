@@ -70,12 +70,13 @@
           </li>
         </ul>
       </nav>
-      <a href="#" class="shopping-bag"><i class="fas fa-shopping-bag"></i></a>
+      <a href="#" class="shopping-bag"><i class="fas fa-shopping-bag"></i><span class="clicks"></span></i></a>
+      
     </div>
   </header>
 
   <main>
-    <button onclick="goBack()" class="go-back">&#8678; Go Back</button>
+    <button id="go-back" class="go-back">&#8678; Go Back</button>
     <div>
       <div class="details_results"></div>
     </div>
@@ -97,7 +98,7 @@
               <option value="46">46 UK 12 US 12.5</option>
             </select>
           </form>
-          <button type="submit">Add</button>
+          <button type="submit" class="countButton">Add</button>
         </div>
       </div>
     </div>
@@ -178,6 +179,7 @@
   <script src="js/products.js"></script>
   <script src="js/navigation.js"></script>
   <script src="js/go-back.js"></script>
+  <script src="js/details-count.js"></script>
   <script src="js/details.js"></script>
 </body>
 
